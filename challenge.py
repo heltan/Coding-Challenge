@@ -30,7 +30,6 @@ def isPrime(num):
 def fizzbuzz():
     for x in range(2,145):
         xisPerfectSquare = False
-        print(x)
         #if number is perfect square, print 'fizz'
         if math.sqrt(x).is_integer() == True:
             xisPerfectSquare = True
