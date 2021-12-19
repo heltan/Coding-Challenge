@@ -11,9 +11,12 @@ import math
 def fizzbuzz():
     for x in range(2,145):
 
-        #if number is perfect square
+        #if number is perfect square, print 'fizz'
         if math.sqrt(x).is_integer() == True:
             print(x)
             print('fizz')
+        #check if number is prime num, then print 'buzz'
+
+        #check if number is a perfect square AND squre root is a prime number, print 'fizzbuzz'
 
 fizzbuzz()
