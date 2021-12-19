@@ -26,7 +26,6 @@ def isPrime(num):
                 break
     return isItPrime
 
-
 def fizzbuzz():
     for x in range(2,145):
         xisPerfectSquare = False
@@ -38,7 +37,6 @@ def fizzbuzz():
         #prime numbers are numbers greater than 1 where it can only divide into 1 and itself
         if isPrime(x) == True:
             print('buzz')
-
         #check if number is a perfect square AND squre root is a prime number, print 'fizzbuzz'
         #check if the square root is a number and not a float
         squareRootOfX = math.sqrt(x)
