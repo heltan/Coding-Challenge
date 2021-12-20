@@ -10,7 +10,7 @@ def isPrime(num):
     if num < 3:
         return True
     else:
-        for y in range(2, num):
+        for y in range(2, int(math.sqrt(num)) + 1):
             if num % y == 0:
                 isItPrime = False
                 break
